@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerControllerX : MonoBehaviour
 {
-    public float speed = 10f;
-    public float rotationSpeed = 20f;
-    public float verticalInput = 50f;
+    public float speed;
+    public float rotationSpeed;
+    public float verticalInput;
         
     // Update is called once per frame
     void Update()
